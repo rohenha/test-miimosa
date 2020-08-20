@@ -1,4 +1,36 @@
 html
-    color: $color-white
+    color: $color-2
     font-family: $font-regular
     font-size: $font-size-base + px
+
+h1
+    font-size: px2rem(50)
+    font-weight: bold
+    &:not(:last-child)
+        margin-bottom: 50px
+
+
+h2
+    font-size: px2rem(25)
+    font-weight: bold
+    &:not(:last-child)
+        margin-bottom: 30px
+
+.text
+    &__home
+        &_percent
+            color: $color-1
+            font-size: px2rem(35)
+            font-weight: bold
+        &_collected
+            font-weight: bold
+        &_profile
+            font-size: px2rem(14)
+            line-height: px2rem(20)
+
+    &__header
+        &_link
+            color: $color-2
+            font-size: px2rem(16)
+            font-weight: bold
+            text-decoration: none

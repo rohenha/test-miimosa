@@ -13,7 +13,7 @@ export default withTranslation('common')(function HeaderComponent({ t }: WithTra
     return (
         <header className="header">
             <nav className="header__nav container">
-                <Link href="/"><a>{t('home')}</a></Link>
+                <Link href="/"><a className="text__header_link">{t('home')}</a></Link>
                 <button
                     type='button'
                     onClick={changeLanguage}

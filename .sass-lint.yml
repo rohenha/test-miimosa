@@ -11,7 +11,9 @@ options:
 # File Options
 files:
   include:
-    - 'src/**/*.s+(a|c)ss'
+    - 'styles/**/*.s+(a|c)ss'
+    - 'pages/**/*.s+(a|c)ss'
+    - 'components/**/*.s+(a|c)ss'
   ignore:
     - 'vendor/**/*.*'
     - 'node_modules/**/*.*'
