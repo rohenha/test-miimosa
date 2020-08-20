@@ -15,5 +15,6 @@ module.exports = withSass({
     publicRuntimeConfig: {
         localeSubpaths,
     },
+    target: 'serverless'
 })
 

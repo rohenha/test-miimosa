@@ -12,8 +12,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next export",
-    "deploy": "npm run build && npm run export"
+    "postbuild": "next-on-netlify"
   },
   "dependencies": {
     "@ts-simple/is-empty": "^1.0.0",
@@ -26,6 +25,7 @@
     "has-value": "^2.0.2",
     "next": "9.5.2",
     "next-i18next": "^6.0.2",
+    "next-on-netlify": "^2.3.2",
     "node-sass": "^4.14.1",
     "postcss-loader": "^3.0.0",
     "react": "16.13.1",
