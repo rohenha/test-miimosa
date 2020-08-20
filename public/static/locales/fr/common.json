@@ -1,5 +1,8 @@
 {
     "hello-world": "Bonjour le monde",
     "title": "Miimosa Fr",
-    "home": "Accueil"
+    "home": "Accueil",
+    "done": "réussi",
+    "by": "par",
+    "projects": "Projets"
 }

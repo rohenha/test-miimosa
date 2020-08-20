@@ -33,7 +33,7 @@ const Homepage = ({ projects, t }: IHomePage) => {
     return (
         <div className="home">
             <div className="container">
-                <h1>Projets</h1>
+                <h1>{t('projects')}</h1>
                 <ul className="row">
                     {projects.map((project: IProjectHome, index: number) => (
                         <li className="col-md-4" key={index}>
@@ -42,10 +42,10 @@ const Homepage = ({ projects, t }: IHomePage) => {
                                     <div className="section__image"></div>
                                     <div className="home__link__content">
                                         <h2>{project.title}</h2>
-                                        <p className="home__link__profile text__home_profile">par {project.user.first_name} {project.user.last_name}</p>
+                                        <p className="home__link__profile text__home_profile">{t('by')} {project.user.first_name} {project.user.last_name}</p>
                                         <div className="home__link__details">
                                             <div className="home__link__price">
-                                                <PercentComponent collected={project.collected} target={project.target} text={"réussi"} />
+                                                <PercentComponent collected={project.collected} target={project.target} text={t('done')} />
                                             </div>
                                         </div>
                                     </div>

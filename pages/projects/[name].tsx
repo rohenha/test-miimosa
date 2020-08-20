@@ -41,7 +41,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx: GetServerSideP
     };
 }
 
-const Projectpage = ({ project, t }: IEquipePage) => {
+const Projectpage = ({ project }: IEquipePage) => {
     return (
         <div className="project">
             <div className="container">

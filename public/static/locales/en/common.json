@@ -1,5 +1,8 @@
 {
     "hello-world": "Hello World",
     "title": "Miimosa En",
-    "home": "home"
+    "home": "home",
+    "done": "done",
+    "by": "by",
+    "projects": "Projects"
 }
